@@ -1,0 +1,13 @@
+# eslint-config-react-trigo
+
+## install
+
+`yarn add -D @trigo/eslint-config-react-trigo`
+
+## usage
+
+```
+{
+	"extends": "@trigo/eslint-config-react-trigo"
+}
+```

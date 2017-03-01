@@ -2,12 +2,12 @@
 
 ## install
 
-`yarn add -D @trigo/eslint-config-react-trigo`
+`yarn add -D eslint-config-react-trigo`
 
 ## usage
 
 ```
 {
-	"extends": "@trigo/eslint-config-react-trigo"
+	"extends": "eslint-config-react-trigo"
 }
 ```

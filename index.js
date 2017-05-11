@@ -36,6 +36,7 @@ module.exports = {
 		],
 		'import/no-extraneous-dependencies': ['warn', { devDependencies: true }],
 		'import/named': 2,
+		'import/prefer-default-export': 0,
 		'mocha/no-exclusive-tests': 'error',
 		'no-restricted-syntax': [
 			'error',

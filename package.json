@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-trigo",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "trigo's React ESLint config",
   "main": "index.js",
   "repository": "https://github.com/trigo-at/eslint-config-react-trigo.git",

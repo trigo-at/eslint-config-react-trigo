@@ -30,6 +30,8 @@ module.exports = {
 				'_shards',
 				'_source',
 				'_type',
+				'_state',
+				'_embedded',
 			],
 			allowAfterThis: true,
 			allowAfterSuper: true },

@@ -50,6 +50,7 @@ module.exports = {
 		'no-unused-vars': ['warn', { vars: 'local', args: 'after-used', ignoreRestSiblings: true }],
 		'react/jsx-indent-props': [2, 'tab'],
 		'react/jsx-indent': [2, 'tab'],
+		'compat/compat': 2,
 	},
 	settings: {
 		polyfills: ['fetch'],

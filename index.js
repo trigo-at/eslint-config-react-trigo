@@ -7,7 +7,7 @@ module.exports = {
 	],
 	env: {
 		node: true,
-		mocha: true,
+		jest: true,
 		browser: true,
 	},
 	rules: {
@@ -39,7 +39,6 @@ module.exports = {
 		'import/no-extraneous-dependencies': ['warn', { devDependencies: true }],
 		'import/named': 2,
 		'import/prefer-default-export': 0,
-		'mocha/no-exclusive-tests': 'error',
 		'no-restricted-syntax': [
 			'error',
 			'ForInStatement',
@@ -51,6 +50,10 @@ module.exports = {
 		'react/jsx-indent-props': [2, 'tab'],
 		'react/jsx-indent': [2, 'tab'],
 		'compat/compat': 2,
+		'jest/no-disabled-tests': 'warn',
+		'jest/no-focused-tests': 'error',
+		'jest/no-identical-title': 'error',
+		'jest/valid-expect': 'error',
 	},
 	settings: {
 		polyfills: ['fetch'],

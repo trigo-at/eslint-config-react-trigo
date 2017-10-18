@@ -34,9 +34,11 @@ module.exports = {
 				'_embedded',
 			],
 			allowAfterThis: true,
-			allowAfterSuper: true },
+			allowAfterSuper: true,
+		},
 		],
 		'import/no-extraneous-dependencies': ['warn', { devDependencies: true }],
+		'import/no-unresolved': ['error', { caseSensitive: false }],
 		'import/named': 2,
 		'import/prefer-default-export': 0,
 		'no-restricted-syntax': [

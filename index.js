@@ -57,6 +57,7 @@ module.exports = {
 		'jest/no-identical-title': 'error',
 		'jest/valid-expect': 'error',
 		'prefer-destructuring': 0,
+		'react/no-unused-state': 'warn',
 	},
 	settings: {
 		polyfills: ['fetch'],

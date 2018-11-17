@@ -58,6 +58,7 @@ module.exports = {
 		'jest/valid-expect': 'error',
 		'prefer-destructuring': 0,
 		'react/no-unused-state': 'warn',
+		'react/jsx-handler-names': 'warn',
 	},
 	settings: {
 		polyfills: ['fetch'],
